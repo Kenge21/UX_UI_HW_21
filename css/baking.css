@@ -69,7 +69,7 @@
     z-index: 99;
 }
 
-a {
+.nav-link {
     color: white;
     font-family: 'Montserrat Regular';
     padding: 5px 15px;
@@ -102,6 +102,13 @@ li {
 
 ul {
     position: absolute;
+}
+
+.page {
+    background-color: #FEC1AD;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
 }
 
 footer a {
