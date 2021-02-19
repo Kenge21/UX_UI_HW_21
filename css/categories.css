@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Cyrene';
+    src: url('../fonts/Cyrene+Regular+Advanced.otf') format('opentype');
+    }
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    }
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    }
+
+.header {
+    font-family: 'Cyrene';
+    font-size: 150px;
+}
+
+/* Button CSS Below */
+
+.button {
+    font-family: 'Montserrat Medium';
+    font-weight: 100;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+}
+
+/* Navigation CSS Below */
+
+.navbar-container {
+    width: 100%;
+    background: none;
+}
+
+.navbar-parent-container {
+    position: absolute;
+    width: 100%;    
+}
+
+.left-navigation {
+    float: left;
+    display: flex;
+    z-index: 99;
+}
+
+.right-navigation {
+    float: right;
+    display: flex;
+}
+
+.logo {
+    color: #0f0f0f;
+    font-family: 'Cyrene';
+    padding: 5px 15px;
+    z-index: 99;
+    font-size: 24px;
+}
+
+.nav-item {
+    z-index: 99;
+}
+
+.contact-form {
+    width: 100px;
+    margin: 0px;
+    z-index: 99;
+}
+
+.nav-link {
+    color: #0f0f0f;
+    font-family: 'Montserrat Regular';
+    padding: 5px 15px;
+    z-index: 99;
+    transition: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0f0f0f;
+}
+
+/* Footer CSS Below */
+
+footer {
+    background-color: #2A5142;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+}
+
+li {
+    color: #FEC1AD;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    list-style-type: none;
+    text-align: left;
+}
+
+ul {
+    position: absolute;
+}
+
+.page {
+    background-color: #FEC1AD;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+/* Hero CSS Below */
+
+.hero-container {
+    margin-bottom: 100px;
+}
+
+.hero-header {
+    height: auto;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.hero-container .header {
+    color: #0f0f0f;
+    text-align: center;
+  }
+
+.hero-container .sub-header {
+    font-family: 'Montserrat Regular';
+    font-size: 20px;
+    color: #0f0f0f;
+    font-weight: 200;
+    width: 100%;
+    text-align: center;
+}
+
+/* Category Grid System CSS Below */
+
+.category-container {
+
+}
+
+.category-container .header {
+    color: #2A5142;
+    position: absolute;
+    float: left;
+    margin-left: 100px;
+    z-index: 1;
+    line-height: 150px;
+    font-size: 75px;
+    height: 150px;
+}
+
+.card-container {
+    margin-bottom: 25px;
+}
+
+.category-container .text-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background: none;
+    border-bottom: none;
+    text-align: center;
+    width: 100%;
+    margin-top: 145px;
+}
+
+.cards {
+    height: 350px;
+    border: none;
+}
+
+.cards img {
+    height: 350px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0f0f0f;
+  }
+  
+  .cards:hover .overlay {
+    opacity: .5;
+  }

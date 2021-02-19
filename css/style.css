@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'Cyrene';
+    src: url('../fonts/Cyrene+Regular+Advanced.otf') format('opentype');
+    }
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    }
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    }
+
+.header {
+    font-family: 'Cyrene';
+    font-size: 150px;
+    margin-left: 100px;
+}
+
+/* Button CSS Below */
+
+.button {
+    font-family: 'Montserrat Medium';
+    font-weight: 100;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+}
+
+/* Navigation CSS Below */
+
+.navbar-container {
+    width: 100%;
+    background: none;
+}
+
+.navbar-parent-container {
+    position: absolute;
+    width: 100%;    
+}
+
+.left-navigation {
+    float: left;
+    display: flex;
+    z-index: 99;
+}
+
+.right-navigation {
+    float: right;
+    display: flex;
+}
+
+.logo {
+    color: #FEC1AD;
+    font-family: 'Cyrene';
+    padding: 5px 15px;
+    z-index: 99;
+    font-size: 24px;
+}
+
+.nav-item {
+    z-index: 99;
+}
+
+.contact-form {
+    width: 100px;
+    margin: 0px;
+    z-index: 99;
+}
+
+.nav-link {
+    color: #FEC1AD;
+    font-family: 'Montserrat Regular';
+    padding: 5px 15px;
+    z-index: 99;
+    transition: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FEC1AD;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0f0f0f;
+}
+
+/* Homepage Footer CSS Below */
+
+footer {
+    background-color: #2A5142;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+}
+
+li {
+    color: #FEC1AD;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    list-style-type: none;
+    text-align: left;
+}
+
+ul {
+    position: absolute;
+}
+
+/* Homepage Hero Image CSS Below */
+
+.hero-container {
+    width: 100%;
+    height: 800px;
+    background-color: #2A5142;
+    position: relative;
+}
+
+.hero-container .img-container img {
+    height: 600px;
+    float: left;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+
+.hero-container .img-container {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.hero-container .header {
+    color: #FEC1AD;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+    z-index: 1;
+    line-height: 150px;
+}
+
+/* Homepage Categories CSS Below */
+
+.categories-container .header {
+    color: #0F0F0F;
+}
+
+.categories-container #overlay {
+    position: absolute;
+    display: none;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.75); 
+    z-index: 2;
+    cursor: default;
+}
+
+.categories-container {
+    width: 100%;
+    height: 800px;
+    background-color: #FEC1AD;
+}
+
+.categories-container .card-container {
+    margin: 0 100px;
+}
+
+.categories-container .baking-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background: none;
+    border-bottom: none;
+    text-align: center;
+    margin: 132px;
+    width: 33%;
+}
+
+.categories-container .film-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background: none;
+    border-bottom: none;
+    text-align: center;
+    margin: 114px;
+    width: 42%;
+}
+
+.categories-container .ceramics-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background: none;
+    border-bottom: none;
+    text-align: center;
+    margin: 132px;
+    width: 33%;
+}
+
+.categories-container .button {
+    background-color: none;
+    border: solid;
+    border-color: #0F0F0F;
+    border-width: 1px;
+    color: #0F0F0F;
+    float: right;
+    margin-right: 111px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+.categories-container .button:hover {
+    color: #FEC1AD;
+    background-color: #0F0F0F;
+    border: none;
+    transition: .4s;
+}
+
+.cards {
+    height: 300px;
+}
+
+.cards img {
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0f0f0f;
+  }
+  
+  .cards:hover .overlay {
+    opacity: .5;
+  }
+
+/* Homepage Blog CSS Below */
+
+.blog-container .header {
+    color: #F0E1CB;
+}
+
+.blog-container {
+    width: 100%;
+    height: 850px;
+    background-color: #0F0F0F;
+}
+
+.blog-container .card-container {
+    margin: 0 100px;
+}
+
+.bored-card {
+    background-color: #0f0f0f;
+    border: solid;
+    border-width: 1px;
+    border-color: #F0E1CB;
+}
+
+.career-card {
+    background-color: #0f0f0f;
+    border: solid;
+    border-width: 1px;
+    border-color: #F0E1CB;
+}
+
+.decision-card {
+    background-color: #0f0f0f;
+    border: solid;
+    border-width: 1px;
+    border-color: #F0E1CB;
+}
+
+.blog-container .card-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: #F0E1CB;
+    background-color: transparent;
+    border-bottom: none;
+    margin: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.blog-container .card-content {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    color: #F0E1CB;
+}
+
+.bored-card .button {
+    background-color: none;
+    border: solid;
+    border-color: #F0E1CB;
+    border-width: 1px;
+    color: #F0E1CB;
+    float: left;
+    margin-top: 46px;
+    text-align: center;
+    padding: 15px;
+}
+
+.career-card .button {
+    background-color: none;
+    border: solid;
+    border-color: #F0E1CB;
+    border-width: 1px;
+    color: #F0E1CB;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+.decision-card .button {
+    background-color: none;
+    border: solid;
+    border-color: #F0E1CB;
+    border-width: 1px;
+    color: #F0E1CB;
+    float: left;
+    margin-top: 46px;
+    text-align: center;
+    padding: 15px;
+}
+
+.blog-container .button:hover {
+    color: #0f0f0f;
+    background-color: #f0e1cb;
+    border: none;
+    transition: .4s;
+}
+
+/* Homepage About Me CSS Below */
+
+.about-me-container {
+    background-color: #F0E1CB;
+    height: 800px;
+    width: 100%;
+}
+
+.about-me-content {
+    flex-direction: column;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-container .header {
+    color: #2A5142;
+    position: absolute;
+    margin-top: 40px;
+    z-index: 1;
+    line-height: 150px;
+    margin-bottom: 100px;
+}
+
+.about-me-container .button {
+    background-color: none;
+    border: solid;
+    border-color: #2A5142;
+    border-width: 1px;
+    color: #2A5142;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    margin-right: 350px;
+    margin-top: 25px;
+}
+
+.about-me-container .button:hover {
+    background-color: #2A5142;
+    border: none;
+    color: #F0E1CB;
+    float: right;
+    text-align: center;
+    padding: 15px;
+}
+
+.img-container img{
+    height: 400px;
+    margin-top: 250px;
+}
+
+.text-container {
+    margin-top: 250px;
+    border: solid;
+    border-width: 1px;
+    border-color: #2a5142;
+    width: 650px;
+    padding: 107px 50px;
+}
+
+.body-paragraph {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    color: #2a5142;
+}
+

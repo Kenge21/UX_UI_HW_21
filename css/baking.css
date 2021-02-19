@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Cyrene';
+    src: url('../fonts/Cyrene+Regular+Advanced.otf') format('opentype');
+    }
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    }
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    }
+
+.header {
+    font-family: 'Cyrene';
+    font-size: 150px;
+}
+
+/* Button CSS Below */
+
+.button {
+    font-family: 'Montserrat Medium';
+    font-weight: 100;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+}
+
+/* Navigation CSS Below */
+
+.navbar-container {
+    width: 100%;
+    background: none;
+}
+
+.navbar-parent-container {
+    position: absolute;
+    width: 100%;    
+}
+
+.left-navigation {
+    float: left;
+    display: flex;
+    z-index: 99;
+}
+
+.right-navigation {
+    float: right;
+    display: flex;
+}
+
+.logo {
+    color: white;
+    font-family: 'Cyrene';
+    padding: 5px 15px;
+    z-index: 99;
+    font-size: 24px;
+}
+
+.nav-item {
+    z-index: 99;
+}
+
+.contact-form {
+    width: 100px;
+    margin: 0px;
+    z-index: 99;
+}
+
+a {
+    color: white;
+    font-family: 'Montserrat Regular';
+    padding: 5px 15px;
+    z-index: 99;
+    transition: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Homepage Footer CSS Below */
+
+footer {
+    background-color: #2A5142;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+}
+
+li {
+    color: #FEC1AD;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    list-style-type: none;
+    text-align: left;
+}
+
+ul {
+    position: absolute;
+}
+
+/* Baking Header CSS Below */
+
+.hero-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 660px;
+}
+
+.hero-container .header {
+    color: white;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    line-height: 150px;
+    margin: none;
+  }
+
+.hero-container .sub-header {
+    font-family: 'Montserrat Regular';
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    margin-top: 150px;
+    width: 100%;
+}
+
+#overlay {
+    position: absolute;
+    display: none;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.25); 
+    z-index: 2;
+    cursor: default;
+  }
+
+
+  /* Baking Get Started CSS Below */
+
+  .get-started-container {
+    background-color: #FEC1AD;
+    height: 500px;
+  }
+
+  .get-started-container .header {
+    color: #0F0F0F;
+    position: absolute;
+    float: left;
+    margin-left: 100px;
+    z-index: 1;
+    line-height: 150px;
+    font-size: 75px;
+  }
+
+  .get-started-container .text-container {
+      padding-top: 150px;
+      padding-left: 100px;
+  }
+
+  .get-started-container .text-container .text {
+      font-size: 18px;
+      color: #0f0f0f;
+      font-family: 'Montserrat Regular';
+      margin-bottom: 18px;
+  }
+
+  .get-started-container .button {
+    background-color: none;
+    border: solid;
+    border-color: #0F0F0F;
+    border-width: 1px;
+    color: #0F0F0F;
+    float: left;
+    margin-right: 111px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+  .get-started-container .button:hover {
+    color: #FEC1AD;
+    background-color: #0F0F0F;
+    border: none;
+    transition: .4s;
+}
+
+/* Baking Tips CSS Below */
+
+.tips-container {
+    background-color: #0F0F0F;
+    height: 500px;
+}
+
+.tips-container .header {
+  color: #F0E1CB;
+  position: absolute;
+  float: left;
+  margin-left: 100px;
+  z-index: 1;
+  line-height: 150px;
+  font-size: 75px;
+}
+
+.tips-container .body-paragaph {
+    font-size: 14px;
+    color: #0f0f0f;
+    font-family: 'Montserrat Regular';
+}
+
+.tips-container .button {
+    background-color: none;
+    border: solid;
+    border-color: #F0E1CB;
+    border-width: 1px;
+    color: #F0E1CB;
+    float: left;
+    margin-right: 111px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+  .tips-container .button:hover {
+    background-color: #F0E1CB;
+    color: #0F0F0F;
+    border: none;
+    transition: .4s;
+}
+
+.tips-container .text-container {
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.tips-container .text-container .text {
+    font-size: 18px;
+    color: #F0E1CB;
+    font-family: 'Montserrat Regular';
+    margin-bottom: 18px;
+}
+
+/* Related Hobbies CSS Below */
+
+.related-hobbies-container {
+    background-color: #F0E1CB;
+    height: 600px;
+}
+
+.related-hobbies-container .header {
+    color: #2A5142;
+    position: absolute;
+    float: left;
+    margin-left: 100px;
+    z-index: 1;
+    line-height: 150px;
+    font-size: 75px;
+    height: 150px;
+}
+
+.card-container {
+    margin: 0px 100px;
+    padding-top: 150px;
+}
+
+.related-hobbies-container .gardening-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background: none;
+    border-bottom: none;
+    text-align: center;
+    margin: 132px;
+    width: 34%;
+}
+
+.related-hobbies-container .cooking-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background: none;
+    border-bottom: none;
+    text-align: center;
+    margin: 113px;
+    width: 42%;
+    margin-top: 132px;
+}
+
+.related-hobbies-container .ceramics-header {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    background: none;
+    border-bottom: none;
+    text-align: center;
+    margin: 132px;
+    width: 33%;
+}
+
+.cards {
+    height: 300px;
+}
+
+.cards img {
+    height: 300px;
+}

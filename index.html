@@ -7,49 +7,144 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-                aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-parent-container">
+    <div class="container-fluid">
+        <div class="navbar-container">
+            <div class="left-navigation">
+                <div class="logo">HANNAH'S HOBBIES</div>
             </div>
-        </div>
-    </nav>
-    <!-- Navbar -->
-
-    <!-- Background image -->
-    <div class="p-5 text-center bg-image" style="
-        background-image: url('images/heroimage.jpg');
-        height: 700px;
-        background-position: center;
-      ">
-        <div class="mask">
-            <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white">
-                    <h1 class="mb-3">Let's Bake</h1>
-                    <h4 class="mb-3">"The way to a person's heart is through their stomach"</h4>
+            <div class="right-navigation">
+                <div class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </div>
+                <div class="nav-item nav">
+                    <a class="nav-link" href="categories.html">CATEGORIES</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="#">ABOUT ME</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
                 </div>
             </div>
         </div>
     </div>
-</header>
+</nav>
+
+<body>
+
+    <!-- Hero Image -->
+    <div class="hero-container">
+        <div class="header">HANNAH'S<br>HOBBIES</div>
+        <div class="img-container">
+            <img src="images/hannahheroimage.jpg">
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="categories-container">
+        <div class="header">CATEGORIES</div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 card-container">
+            <div class="col">
+                <a href="baking.html" target="_blank">
+                    <div class="card cards">
+                        <img src="images/baking.jpg" class="card-img-top" alt="...">
+                        <div class="baking-header">Baking</div>
+                        <div class="overlay"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <div class="card cards">
+                    <img src="images/film.jpg" class="card-img-top" alt="...">
+                    <div class="film-header">Film<br>Photography</div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card cards">
+                    <img src="images/ceramics.jpg" class="card-img-top" alt="...">
+                    <div class="ceramics-header">Ceramics</div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+        <a href="categories.html" target="_blank">
+            <div class="button">View More</div>
+        </a>
+    </div>
+
+    <!-- Blog -->
+    <div class="blog-container">
+        <div class="header">THE BLOG</div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 card-container">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/boredimage.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bored-card">
+                        <h5 class="card-title card-header">What to do when you're bored of your hobby</h5>
+                        <p class="card-text card-content">Already bored? That's okay, here's some advice.</p>
+                        <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/careerimage.jpg" class="card-img-top" alt="...">
+                    <div class="card-body career-card">
+                        <h5 class="card-title card-header">How to make a career out of your hobby</h5>
+                        <p class="card-text card-content">Do you love your hobby? Do you want to do it full time? I have
+                            a few tips for you.
+                        </p>
+                        <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/decisionimage.jpg" class="card-img-top" alt="...">
+                    <div class="card-body decision-card">
+                        <h5 class="card-title card-header">Can you have more than one hobby?</h5>
+                        <p class="card-text card-content">Spoiler Alert! Yes you absolutely can. Here's how you should
+                            handle more than one hobby</p>
+                        <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Me -->
+    <div class="about-me-container">
+        <div class="header">ABOUT ME</div>
+        <div class="about-me-content">
+            <div class="img-container">
+                <img src="images/aboutme.jpg">
+            </div>
+            <div class="text-container">
+                <div class="body-paragraph">Hi! I'm Hannah.<br>One day I decided I want to learn a new hobby every
+                    month.<br>I thought the least I could do is share some of that<br>knowledge with others.</div>
+                <div class="button">Read More</div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<footer>
+    <ul>
+        <li>HOME</li>
+        <li>CATEGORIES</li>
+        <li>BLOG</li>
+        <li>ABOUT ME</li>
+        <li>CONTACT</li>
+    </ul>
+</footer>
 
 </html>
